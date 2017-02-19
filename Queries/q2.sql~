@@ -1,0 +1,10 @@
+SELECT name
+FROM   person
+ORDER BY name ASC
+WHERE  person.gender = 'M'
+EXCEPT
+SELECT DISTINCT males.name
+FROM   person AS males
+JOIN   person AS children
+ON     children.father = males.name
+WHERE  males.gender = 'M'
