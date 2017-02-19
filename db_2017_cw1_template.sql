@@ -1,9 +1,9 @@
 -- Q1 returns (name,dod)
 SELECT	personb.name,
-		persona.dod,
+	persona.dod
 FROM	person AS persona
 JOIN	person AS personb
-ON		persona.name = personb.mother
+ON	persona.name = personb.mother
 WHERE	persona.dod IS NOT NULL
 ;
 
