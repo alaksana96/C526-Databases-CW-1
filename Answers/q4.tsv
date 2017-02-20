@@ -1,14 +1,14 @@
-name	mother	father
-Albert Victor	Alexandra (Queen)	Edward VII
-Charles	Elizabeth II	Philip
-Charles II	Henrietta Maria	Charles I
-Edward VIII	Mary of Teck	George V
-Elizabeth II	Elizabeth	George VI
-Frederick (Prince)	Charlotte	George III
-George I	Palatine Sophia	Ernest Augustus
-George III	Augusta of Saxe-Gotha	Frederick
-Mary II	Anne Hyde	James II
-Philip	Alice	Andrew of Greece
-Victoria (Princess Royal)	Victoria	Albert
-William	Diana	Charles
-William III	Mary (Princess Royal)	William II of Orange
+name	father	mother
+Albert Victor	Edward VII	Alexandra (Queen)
+Charles	Philip	Elizabeth II
+Charles II	Charles I	Henrietta Maria
+Edward VIII	George V	Mary of Teck
+Elizabeth II	George VI	Elizabeth
+Frederick (Prince)	George III	Charlotte
+George I	Ernest Augustus	Palatine Sophia
+George III	Frederick	Augusta of Saxe-Gotha
+Mary II	James II	Anne Hyde
+Philip	Andrew of Greece	Alice
+Victoria (Princess Royal)	Albert	Victoria
+William	Charles	Diana
+William III	William II of Orange	Mary (Princess Royal)
