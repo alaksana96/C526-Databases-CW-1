@@ -18,7 +18,6 @@ FROM  person AS parent
 JOIN  person AS child
   ON  parent.name = child.mother
   OR  parent.name = child.father
-WHERE child.dob  > DATE('1939-12-31')
 GROUP BY parent.name
 HAVING COUNT(parent.name) >= 2
 ORDER BY  parent.name
