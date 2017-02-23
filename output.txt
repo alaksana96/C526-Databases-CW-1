@@ -1,0 +1,195 @@
+           name            |    dod     
+---------------------------+------------
+ Charles II                | 1669-09-10
+ James II                  | 1669-09-10
+ Mary (Princess Royal)     | 1669-09-10
+ Mary II                   | 1671-04-10
+ William III               | 1660-12-24
+ Anne                      | 1671-04-10
+ Palatine Sophia           | 1662-02-13
+ George I                  | 1714-06-08
+ George III                | 1772-02-08
+ George IV                 | 1818-11-17
+ Frederick (Prince)        | 1818-11-17
+ William IV                | 1818-11-17
+ Edward (Prince)           | 1818-11-17
+ Victoria (Princess Royal) | 1901-01-22
+ Edward VII                | 1901-01-22
+ Alice (Princess)          | 1901-01-22
+ Alfred                    | 1901-01-22
+ Albert Victor             | 1925-11-20
+ George V                  | 1925-11-20
+ Alice (Princess Royal)    | 1925-11-20
+ George VI                 | 1953-03-24
+ Edward VIII               | 1953-03-24
+ Elizabeth II              | 2002-03-30
+ Margaret                  | 2002-03-30
+ Philip                    | 1969-12-05
+ Diana                     | 2004-06-03
+ Henry                     | 1997-08-31
+ William                   | 1997-08-31
+(28 rows)
+
+           name           
+--------------------------
+ Albert Victor
+ Alec Douglas-Home
+ Alfred
+ Andrew
+ Andrew Bonar Law
+ Anthony Eden
+ Arthur Balfour
+ Benjamin Disraeli
+ Charles II
+ Clement Attlee
+ Constantine I of Greece
+ David Cameron
+ David Lloyd George
+ Earl of Rosebery
+ Edward
+ Edward Heath
+ Edward VIII
+ Frederick (Prince)
+ George IV
+ Gordon Brown
+ Harold Macmillan
+ Harold Wilson
+ Henry
+ Henry Campbell-Bannerman
+ Herbert Henry Asquith
+ James Callaghan
+ John Major
+ Lord Salisbury
+ Neville Chamberlain
+ Ramsay MacDonald
+ Richard Cromwell
+ Stanley Baldwin
+ Tony Blair
+ William
+ William Ewart Gladstone
+ William III
+ William IV
+ Winston Churchill
+(38 rows)
+
+       name        
+-------------------
+ Alexandra (Queen)
+ Elizabeth II
+ Henrietta Maria
+ Victoria
+(4 rows)
+
+           name            |        mother         |        father        
+---------------------------+-----------------------+----------------------
+ Albert Victor             | Alexandra (Queen)     | Edward VII
+ Charles                   | Elizabeth II          | Philip
+ Charles II                | Henrietta Maria       | Charles I
+ Edward VIII               | Mary of Teck          | George V
+ Elizabeth II              | Elizabeth             | George VI
+ Frederick (Prince)        | Charlotte             | George III
+ George I                  | Palatine Sophia       | Ernest Augustus
+ George III                | Augusta of Saxe-Gotha | Frederick
+ Mary II                   | Anne Hyde             | James II
+ Philip                    | Alice                 | Andrew of Greece
+ Victoria (Princess Royal) | Victoria              | Albert
+ William                   | Diana                 | Charles
+ William III               | Mary (Princess Royal) | William II of Orange
+(13 rows)
+
+   name    | popularity 
+-----------+------------
+ George    |          7
+ Edward    |          5
+ William   |          5
+ Alice     |          3
+ Andrew    |          3
+ Anne      |          3
+ Charles   |          3
+ Elizabeth |          3
+ James     |          3
+ Mary      |          3
+ Albert    |          2
+ David     |          2
+ Frederick |          2
+ Harold    |          2
+ Henry     |          2
+ Margaret  |          2
+ Victoria  |          2
+(17 rows)
+
+        name        | forties | fifties | sixties 
+--------------------+---------+---------+---------
+ Albert             |       0 |       0 |       0
+ Alexandra (Queen)  |       0 |       0 |       0
+ Anne Hyde          |       0 |       0 |       0
+ Charles            |       0 |       0 |       0
+ Charles I          |       0 |       0 |       0
+ Charlotte          |       0 |       0 |       0
+ Diana              |       0 |       0 |       0
+ Edward VII         |       0 |       0 |       0
+ Elizabeth          |       0 |       0 |       0
+ Elizabeth II       |       1 |       1 |       2
+ George III         |       0 |       0 |       0
+ George I of Greece |       0 |       0 |       0
+ George V           |       0 |       0 |       0
+ George VI          |       0 |       0 |       0
+ Henrietta Maria    |       0 |       0 |       0
+ James I            |       0 |       0 |       0
+ James II           |       0 |       0 |       0
+ Mary of Teck       |       0 |       0 |       0
+ Philip             |       1 |       1 |       2
+ Victoria           |       0 |       0 |       0
+(20 rows)
+
+        father        |        mother         |           child           | born 
+----------------------+-----------------------+---------------------------+------
+ Albert               | Victoria              | Victoria (Princess Royal) |    1
+ Albert               | Victoria              | Edward VII                |    2
+ Albert               | Victoria              | Alice (Princess)          |    3
+ Albert               | Victoria              | Alfred                    |    4
+ Andrew of Greece     | Alice                 | Philip                    |    1
+ Charles              | Diana                 | William                   |    1
+ Charles              | Diana                 | Henry                     |    2
+ Charles I            | Henrietta Maria       | Charles II                |    1
+ Charles I            | Henrietta Maria       | Mary (Princess Royal)     |    2
+ Charles I            | Henrietta Maria       | James II                  |    3
+ Edward VII           | Alexandra (Queen)     | Albert Victor             |    1
+ Edward VII           | Alexandra (Queen)     | George V                  |    2
+ Edward VII           | Alexandra (Queen)     | Alice (Princess Royal)    |    3
+ Ernest Augustus      | Palatine Sophia       | George I                  |    1
+ Frederick            | Augusta of Saxe-Gotha | George III                |    1
+ George III           | Charlotte             | Frederick (Prince)        |    1
+ George III           | Charlotte             | William IV                |    2
+ George III           | Charlotte             | George IV                 |    2
+ George III           | Charlotte             | Edward (Prince)           |    4
+ George V             | Mary of Teck          | Edward VIII               |    1
+ George V             | Mary of Teck          | George VI                 |    2
+ George VI            | Elizabeth             | Elizabeth II              |    1
+ George VI            | Elizabeth             | Margaret                  |    2
+ James II             | Anne Hyde             | Mary II                   |    1
+ James II             | Anne Hyde             | Anne                      |    2
+ Philip               | Elizabeth II          | Charles                   |    1
+ Philip               | Elizabeth II          | Anne (Princess)           |    2
+ Philip               | Elizabeth II          | Andrew                    |    3
+ Philip               | Elizabeth II          | Edward                    |    4
+ William II of Orange | Mary (Princess Royal) | William III               |    1
+(30 rows)
+
+        father        |        mother         | male 
+----------------------+-----------------------+------
+ Albert               | Victoria              | 50%
+ Andrew of Greece     | Alice                 | 100%
+ Charles              | Diana                 | 100%
+ Charles I            | Henrietta Maria       | 66%
+ Edward VII           | Alexandra (Queen)     | 66%
+ Ernest Augustus      | Palatine Sophia       | 100%
+ Frederick            | Augusta of Saxe-Gotha | 100%
+ George III           | Charlotte             | 100%
+ George V             | Mary of Teck          | 100%
+ George VI            | Elizabeth             | 0%
+ James II             | Anne Hyde             | 0%
+ Philip               | Elizabeth II          | 75%
+ William II of Orange | Mary (Princess Royal) | 100%
+(13 rows)
+
